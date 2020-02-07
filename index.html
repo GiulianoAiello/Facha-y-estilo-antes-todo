@@ -49,8 +49,24 @@
 <td> OwO</td>
 </tr>
 </table>
-<form
+<form action="datos.php" method="get">
+  <label for="nombre"> Ingrese su nombre </label>
+<input type="text" placeholder="Nombre" maxlength="15" name="nombre" id="nombre">
+<input type="password" placeholder="Tu password" maxlenght="20" name="password" id="password">
+<input type="email" name="email" id="email">
+<input type="radio" name="cajita" id="cajita">Hombre
+<input type="radio" name="cajita" id="cajita">Mujer
+<input type="submit" name="Finalizar" value="Finalizar" id="finalizar">
+<select name="País" >
+  <option value="Uruguay"> Uruguay </option>
+  <option value="Brazil"> Brazil </option>
+</select>
 
 
+<!--input type="button" value="Enviar" (no sirve en un principio)-->
+<!--value="Escribe tu nombre" -->
+<!--checkbox es similar a radio pero podes elegir simultáneamente-->
+
+</form>
   </body>
 </html>
